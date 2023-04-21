@@ -45,11 +45,14 @@
   .navbar a.active {
     color: blue;
   }
-  
+
+  .navbar Link.active {
+    color: blue;
+
+  }
+
   .navbar .menuicon {
-    position: fixed;
-    top: -9999px;
-    left: -9999px;
+    display: none;
   }
   
   
@@ -59,23 +62,22 @@
   */
   
   @media all and (max-width: 640px) {
-    .navbar li:not(:first-child) {
+    .navbar li:not(:first-child){
         display: none;
     }
   
-    .navbar li:first-child {
+    .navbar .menuicon {
         max-width: 30%;
     }
   
-    .navbar a.menuicon {
-        top: -50px;
-        left: 10px;
+    .navbar .menuicon {
+        margin-top: 10px;
         width: 20%;
   
     }
   
-    .navbar a.menuicon .material-icons {
-        font-size: 60px;
+    .navbar .menuicon {
+        font-size: 50px;
     }
   
     
@@ -86,8 +88,8 @@
         display: block;
         margin: auto;
     }
-    .navbar.responsive li a {
-        display: block;
+    .navbar .menuicon{
+        display: inline-block;
     }
     .navbar.responsive ul {
         display: block;

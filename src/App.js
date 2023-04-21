@@ -6,10 +6,12 @@ import Outdoors from './pages/Outdoors'
 import Photography from './pages/Photography'
 import Blog from './pages/Blog'
 import './static/css/main.css'
+import Navigation from './components/Template/Navigation'
 
 function App() {
     return (
         <BrowserRouter>
+            <Navigation/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />

@@ -1,12 +1,9 @@
-import Navigation
- from "../components/Template/Navigation";
+
 function Home() {
     return (
         <body>
 
         <div class="main">
-
-            <Navigation />
             
 
             <div class="content">
