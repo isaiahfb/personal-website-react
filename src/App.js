@@ -17,8 +17,8 @@ function App() {
                 <Route path="/home" element={<Home />} />
                 <Route path="/programming" element={<Programming />} />
                 <Route path="/running" element={<Running />} />
-                <Route path="/outdoors" element={<Outdoors />} />
-                <Route path="/photography" element={<Photography />} />
+                <Route path="/other" element={<Outdoors />} />
+                <Route path="/gallery" element={<Photography />} />
                 <Route path="/blog" element={<Blog />} />
             </Routes>
         </BrowserRouter>

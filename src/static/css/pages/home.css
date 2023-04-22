@@ -1,0 +1,54 @@
+/* intro section */
+.intro {
+    display: block;
+    text-align: center;
+}
+#profile {
+    object-fit: cover;
+    max-height: calc(100vh - 112px);
+    min-height: calc(100vh - 112px);
+    width: 100%;
+    height: auto;
+
+}
+
+.name {
+    position: absolute;
+    width: 100%;
+    top: calc(112px + 15%);
+
+}
+.name p {
+    color:white;
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-style: italic;
+
+}
+.name h1 {
+    color:white;
+    font-size: 70px
+
+}
+
+@media all and (max-height: 360px) {
+    .name p {
+        display: none;
+    }
+}
+@media all and (max-height: 360px) and (max-width: 882px) {
+    .name {
+        top: 112px;
+    }
+
+}
+@media all and (max-width: 415px) {
+    .name h1 {
+        font-size: 60px;
+    }
+}
+@media all and (max-width: 359px) {
+    .name h1 {
+        font-size: 40px;
+    }
+}

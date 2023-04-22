@@ -44,7 +44,7 @@ function Contact({message, include}) {
 
             <p>{message}</p>
 
-            <div class="social-links">
+            <div className="social-links">
                 {contactLinks.filter((contactLink) =>
                     include.includes(contactLink.id)
                 ).map((contactLink) => (
@@ -57,7 +57,7 @@ function Contact({message, include}) {
                     </a>
                 ))}
             </div>
-            <div class="email">
+            <div className="email">
                 <a href = "mailto: isaiah.fujii@gmail.com">isaiah.fujii@gmail.com</a>
             </div>
 

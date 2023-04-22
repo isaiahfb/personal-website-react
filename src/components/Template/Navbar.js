@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav class="navbar" id="navbar">
+        <nav className="navbar" id="navbar">
             <ul>
                 <li>
                     <NavLink to="/home" activeClassName="active">Home</NavLink>
@@ -14,10 +14,10 @@ function Navbar() {
                     <NavLink to="/running" activeClassName="active">Running</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/outdoors" activeClassName="active">Outdoors</NavLink>
+                    <NavLink to="/other" activeClassName="active">Other</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/photography" activeClassName="active">Photography</NavLink>
+                    <NavLink to="/gallery" activeClassName="active">Gallery</NavLink>
                 </li>
                 <li>
                     <NavLink to="/blog" activeClassName="active">Blog</NavLink>

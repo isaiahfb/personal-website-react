@@ -11,15 +11,15 @@ function Hamburger () {
     }
 
     return (
-        <nav class="navbar responsive" id="myNavbar">
+        <nav className="navbar responsive" id="myNavbar">
             { isOpen ? 
                 <GoX 
-                    class="menuicon material-icons" 
+                    className="menuicon material-icons" 
                     onClick={handleClick}
                     >
                 </GoX> :
                 <GiHamburgerMenu 
-                    class="menuicon material-icons"
+                    className="menuicon material-icons"
                     onClick={handleClick}
                     >
                 </GiHamburgerMenu>
@@ -36,10 +36,10 @@ function Hamburger () {
                         <NavLink to="/running" activeClassName="active" onClick={handleClick}>Running</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/outdoors" activeClassName="active" onClick={handleClick}>Outdoors</NavLink>
+                        <NavLink to="/other" activeClassName="active" onClick={handleClick}>Other</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/photography" activeClassName="active" onClick={handleClick}>Photography</NavLink>
+                        <NavLink to="/gallery" activeClassName="active" onClick={handleClick}>Gallery</NavLink>
                     </li>
                     <li>
                         <NavLink to="/blog" activeClassName="active" onClick={handleClick}>Blog</NavLink>

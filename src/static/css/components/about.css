@@ -1,0 +1,11 @@
+
+.about-me {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+    align-items: center;
+}
