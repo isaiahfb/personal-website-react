@@ -1,0 +1,30 @@
+.skills {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    max-width: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills h1 {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    padding-bottom: 3vh;
+    font-style: italic;
+   
+}
+@media all and (max-width: 722px) {
+    .skills {
+        max-width: 400px;
+        width: 80%;
+    }
+}

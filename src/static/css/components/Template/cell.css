@@ -1,0 +1,28 @@
+.item img {
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+}
+.item p {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    text-align: center;
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+.item {
+    padding-top: 5vh;
+    flex: 1 1 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}

@@ -1,8 +1,8 @@
 
-function Outdoors() {
+function Other() {
     return (
         <>Coming Soon</>
     )
 } 
 
-export default Outdoors
+export default Other
