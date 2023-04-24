@@ -1,0 +1,82 @@
+.intro {
+    display: block;
+    text-align: center;
+}
+#cover-photo {
+    object-fit: cover;
+    max-height: calc(100vh - 112px);
+    min-height: calc(100vh - 112px);
+    width: 100%;
+    height: auto;
+
+}
+
+
+.intro .title {
+    position: absolute;
+    width: 100%;
+    top: calc(112px + 10%);
+
+}
+
+.intro .title h1 {
+    color:white;
+    font-size: 40px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 10vh;
+
+}
+
+
+@media all and (max-height: 500px){
+    .intro .title h1 { 
+        max-width: 100%;
+        
+    }
+}
+@media all and (max-height: 360px){
+    .intro .title h1 { 
+        padding-top: 0vh;
+    }
+}
+@media all and (max-height: 700px) and (max-width: 300px) {
+    .intro .title h1 {
+        font-size: 38px;
+    }
+}
+@media all and (max-height: 600px) and (max-width: 374px) {
+    .intro .title h1 {
+        font-size: 38px;
+    }
+}
+@media all and (max-height: 360px ) and (max-width:640px){
+    .intro .title h1 { 
+        font-size: 38px;
+    }
+}
+
+@media all and (max-height: 400px) and (max-width:980px){
+    .intro .title h1 { 
+        font-size: 30px;
+    }
+}
+.strava-summary {
+    padding-top: 10vh;
+    margin: auto;
+}
+
+.strava-summary h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #262626;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+}
