@@ -20,14 +20,9 @@ function Home() {
                         message='Feel free to connect with me and chat with me about my passions and projects!'
                         include={['instagram', 'facebook', 'linkedin']}
                     >
-                    </Contact>    
-
+                    </Contact>
                 </div>
-
             </div>
-    
-
-
      </body>
     )
 }

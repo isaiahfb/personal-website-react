@@ -1,0 +1,11 @@
+.comingSoon p {
+    padding-top: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #262626;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}

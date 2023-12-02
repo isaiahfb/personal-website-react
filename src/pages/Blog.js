@@ -1,7 +1,16 @@
+import '../static/css/pages/blog.css'
 
 function Blog() {
     return (
-        <>Coming Soon</>
+        <body>
+            <div className="main">
+                <div className="content">
+                    <div className="comingSoon">
+                        <p>Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+        </body>
     )
 } 
 
